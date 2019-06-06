@@ -1,0 +1,691 @@
+@font-face {
+	font-family: 'Airbnb Cereal App';
+	src: url(.../font/AirbnbCereal-Book.ttf);
+}
+
+@font-face {
+	font-family: 'Airbnb Cereal App';
+	src: url(.../font/AirbnbCereal-Medium.ttf);
+	font-weight: bold;
+}
+
+.pre {
+	white-space: pre-wrap;
+}
+
+.button {
+	display: inline-block;
+	padding: 0.8em 1.2em;
+	text-decoration: none;
+	line-height: 1;
+}
+
+.button:hover {
+	text-decoration: none;
+}
+
+.alert {
+	background-color: #ffdddc;
+}
+
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Airbnb Cereal App", Helvetica, sans-serif;
+	font-weight: normal;
+	background-color: #F4F9FF;
+}
+
+.formulario-login {
+	background-color: #ffffff;
+	box-shadow: 0px 3px 6px rgba(158, 158, 158, 0.05);
+	padding-left: 40px;
+	padding-right: 40px;
+	width: 80%;
+}
+
+.input-title {
+	font-size: 14px;
+	color: #8B8B8B;
+}
+
+.form-input {
+	padding-left: 1em;
+	background-color: #F4F9FF;
+	border: none;
+	text-decoration: none;
+	height: 35px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.logo-login {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.imagen {
+	height: 100%;
+	width: 100%;
+	padding: 0px !important;
+	margin: 0px !important;
+}
+
+#formulario {
+	vertical-align: middle;
+}
+
+.space-login {
+	margin-top: 30%;
+}
+
+/*top nav-------------------------------------------------------------------------------------------*/
+
+.space-navs {
+	margin-top: 12px;
+}
+
+.topnav-vendedor {
+	color: #404040;
+}
+
+
+.topnav {
+	overflow: hidden;
+	background-color: #ffff;
+	color: #404040;
+	box-shadow: 0px 3px 6px rgba(158, 158, 158, 0.05);
+	margin-bottom: 30px;
+}
+
+.topnav a {
+	float: left;
+	display: block;
+	color: #8B8B8B;
+	text-align: center;
+	padding: 18px 20px;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 300px;
+}
+
+.topnav a:hover {
+	color: #40B8F2;
+}
+
+.active {
+	color: white;
+}
+
+.topnav .icon {
+	display: none;
+}
+
+@media screen and (max-width: 800px) {
+	.topnav a:not(:first-child) {
+		display: none;
+	}
+
+	.topnav a.icon {
+		float: right;
+		display: block;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.topnav.responsive {
+		position: relative;
+	}
+
+	.topnav.responsive .icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+
+	.topnav.responsive a {
+		float: none;
+		display: block;
+		text-align: left;
+	}
+}
+
+/*top nav------------------------------------------------------------------------------------------- END */
+
+/*Dashboard cliente -------------------------------------------------------------------------*/
+
+/* INICIO CLIENTE */
+
+.img-circle {
+	border-radius: 50%;
+	padding: 10px;
+	width: 120px;
+	height: auto;
+}
+
+.profile-client,
+.info-auto {
+	background-color: white;
+	padding: 15px;
+	box-shadow: #404040;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	border-radius: 2px;
+	box-shadow: 0px 1px 2px rgba(158, 158, 158, 0.10);
+	border: none;
+}
+
+.mensajes {
+	background-color: white;
+	padding: 15px;
+	box-shadow: #404040;
+	margin-bottom: 50px;
+	border-radius: 2px;
+	box-shadow: 0px 1px 2px rgba(158, 158, 158, 0.10);
+	border: none;
+
+}
+
+.auto-specs {
+	padding: 15px;
+	padding-left: 10px;
+}
+
+.spacer-laura {
+	padding-bottom: 10px;
+}
+
+.spacer-laura2 {
+	padding-top: 20px;
+}
+
+.push-left {
+	padding-left: 33px;
+}
+
+textarea {
+	width: 100%;
+	resize: none;
+	padding: 10px;
+	border-color: #C4E6FD;
+	border-radius: 2px;
+}
+
+.mensaje-muro {
+	width: 100%;
+	resize: none;
+	padding-left: 15px;
+	border-radius: 2px;
+	border: 2px solid;
+	border-color: #C4E6FD;
+}
+
+.respuesta-muro {
+	width: 100%;
+	resize: none;
+	padding-left: 15px;
+	border-radius: 2px;
+	border: 2px solid;
+	border-color: #E0F7E9;
+}
+
+.mensajes-muro-general {
+	padding: 5px;
+}
+
+/*Dashboard cliente -------------------------------------------------------------------------------END */
+
+
+/*titles-------------------------------------------------------------------------------------------*/
+
+.big-titles {
+	font-weight: 500;
+	font-size: 26px;
+	color: #404040;
+}
+
+.small-title-black {
+	font-weight: bold;
+	font-size: 18px;
+	color: #404040;
+}
+
+/* Se usa en dashboard cliente */
+.nombre-chat {
+	padding-top: 20px;
+	font-weight: bold;
+	font-size: 16px;
+	color: #404040;
+}
+
+.texto-general-azul {
+	font-weight: 500;
+	font-size: 14px;
+	color: #40b8f2;
+}
+
+/* Se usa en dashboard cliente */
+.link-archivo {
+	font-weight: 150;
+	font-size: 14px;
+	color: #40b8f2;
+	text-decoration: underline;
+	padding-bottom: 10px;
+}
+
+.texto-general-gris {
+	font-size: 14px;
+	color: #404040;
+}
+
+/* Se usa en dashboard cliente */
+.texto-fecha {
+	font-size: 12px;
+	color: #5a5a5a;
+}
+
+.texto-general-gris-bold {
+	font-size: 16px;
+	color: #404040;
+	font-weight: 500;
+}
+
+.texto-general-verde {
+	font-weight: 500;
+	font-size: 14px;
+	color: #4acc85;
+}
+
+.texto-general-lightgray {
+	font-weight: 100px;
+	font-size: 14px;
+	color: #8b8b8b;
+}
+
+/*titles------------------------------------------------------------------------------------------- END */
+
+/*button------------------------------------------------------------------------------------------- */
+
+.boton-login {
+	background-color: #E0F7E9;
+	border-radius: 2px;
+	box-shadow: 0px 1px 2px rgba(158, 158, 158, 0.05);
+	border: none;
+	color: #4acc85;
+	font-weight: 150px;
+	height: 35px;
+	width: 100%;
+	margin-top: 25px;
+	margin-bottom: 40px;
+}
+
+.boton-login:hover {
+	background-color: #EBFFF3;
+}
+
+.boton-azul {
+	background-color: #DCF2FF;
+	border-radius: 2px;
+	box-shadow: 0px 1px 2px rgba(158, 158, 158, 0.05);
+	border: none;
+	color: #40B8F2;
+	font-weight: 150px;
+	height: 35px;
+	margin-top: 25px;
+	margin-bottom: 40px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+
+.boton-azul:hover {
+	background-color: #E3F5FF;
+}
+
+.boton-rojo {
+	background-color: #FFDDDC;
+	border-radius: 2px;
+	box-shadow: 0px 1px 2px rgba(158, 158, 158, 0.05);
+	border: none;
+	color: #F25D40;
+	font-weight: 150px;
+	height: 35px;
+	margin-top: 25px;
+	margin-bottom: 40px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.boton-rojo:hover {
+	background-color: #FFE7E6;
+}
+
+/*button------------------------------------------------------------------------------------------- END */
+
+
+/*registro-cliente-------------------------------------------------------------------------------------------*/
+
+.registro-cliente-box {
+	background-color: #ffffff;
+	box-shadow: 0px 3px 6px rgba(158, 158, 158, 0.05);
+	padding-left: 40px;
+	padding-right: 40px;
+	width: 100%;
+	padding-top: 30px;
+	margin-bottom: 50px;
+}
+
+.space-20 {
+	height: 20px;
+}
+
+.space-80 {
+	height: 80px;
+}
+
+.space-40 {
+	height: 40px;
+}
+
+
+.form-input-registro {
+	text-align: center;
+	background-color: #F4F9FF;
+	border: none;
+	text-decoration: none;
+	height: 35px;
+	width: 100%;
+
+}
+
+.texto-general-azul-big {
+	font-weight: 500;
+	font-size: 18px;
+	color: #40b8f2;
+}
+
+.texto-general-verde-big {
+	font-weight: 500;
+	font-size: 18px;
+	color: #4acc85;
+	padding-left: 15px;
+}
+
+.dropdown {
+	text-align: center;
+	background-color: #F4F9FF;
+	border: none;
+	text-decoration: none;
+	height: 35px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.space-100 {
+	height: 100px;
+}
+
+.upload-button {
+	background-color: none;
+	text-decoration: underline;
+	color: #40B8F2;
+
+}
+
+
+.boton-verde {
+	background-color: #E0F7E9;
+	border-radius: 2px;
+	box-shadow: 0px 1px 2px rgba(158, 158, 158, 0.05);
+	border: none;
+	color: #4acc85;
+	font-weight: 150px;
+	height: 35px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 0px;
+	margin-bottom: 40px;
+}
+
+.boton-verde:hover {
+	background-color: #EBFFF3;
+}
+
+
+
+/*gestionar cuentas-------------------------------------------------------------------------------------------*/
+
+.cajita-vendedores {
+	background-color: #ffffff;
+	box-shadow: 0px 3px 6px rgba(158, 158, 158, 0.05);
+	padding-left: 40px;
+	padding-right: 40px;
+	width: 100%;
+	height: 380px;
+}
+
+.lista-vendedor a {
+	float: right;
+}
+
+.lista-vendedor p {
+	display: inline-block;
+}
+
+.cajita-crear-vendedor {
+	background-color: #ffffff;
+	box-shadow: 0px 3px 6px rgba(158, 158, 158, 0.05);
+	padding-left: 40px;
+	padding-right: 40px;
+	width: 100%;
+	height: 380px;
+}
+
+/* casos archivados ---------------------------------------------------------------------------------------*/
+
+.cajita-casos {
+	background-color: #ffffff;
+	box-shadow: 0px 3px 6px rgba(158, 158, 158, 0.05);
+	padding-left: 40px;
+	padding-right: 40px;
+	width: 100%;
+	height: 380px;
+}
+
+/* misclientes-dashboard ---------------------------------------------------------------------------------------*/
+
+.cliente-box {
+	background-color: #ffffff;
+	box-shadow: 0px 3px 6px rgba(158, 158, 158, 0.05);
+	width: 100%;
+	padding-bottom: 30px;
+	height: auto;
+	margin-top: 10px;
+}
+
+.cliente-box .button {
+	margin-bottom: 0px;
+}
+
+.boton-verde-db {
+	background-color: #E0F7E9;
+	border-radius: 2px;
+	box-shadow: 0px 1px 2px rgba(158, 158, 158, 0.05);
+	border: none;
+	color: #4acc85;
+	font-weight: 150px;
+	height: 35px;
+	padding-left: 35px;
+	padding-right: 35px;
+	margin-top: 0px;
+}
+
+.boton-verde-db:hover {
+	background-color: #EBFFF3;
+}
+
+.boton-azul-db {
+	background-color: #DCF2FF;
+	border-radius: 2px;
+	box-shadow: 0px 1px 2px rgba(158, 158, 158, 0.05);
+	border: none;
+	color: #40B8F2;
+	font-weight: 150px;
+	height: 35px;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-bottom: 10px;
+
+}
+
+.boton-azul-db:hover {
+	background-color: #E3F5FF;
+}
+
+.space-15 {
+	height: 15px;
+}
+
+.col-md-3 {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+/* mi perfil ---------------------------------------------------------------------------------------*/
+
+
+.perfil-box {
+	background-color: #ffffff;
+	box-shadow: 0px 3px 6px rgba(158, 158, 158, 0.05);
+	width: 100%;
+	padding-bottom: 30px;
+	height: 30%;
+	margin-top: 10px;
+}
+
+.perfil-box-form {
+	background-color: #ffffff;
+	box-shadow: 0px 3px 6px rgba(158, 158, 158, 0.05);
+	width: 100%;
+	margin-top: 10px;
+}
+
+.img-space {
+	margin-top: 30px;
+	margin-left: 50px;
+}
+
+.name-space {
+	margin-top: 60px;
+}
+
+.position {
+	float: right;
+}
+
+.blue-link {
+	color: #40B8F2;
+	text-decoration: underline;
+}
+
+.blue-link:hover {
+	color: #90D2F2;
+	text-decoration: underline;
+}
+
+.small-title-black-name {
+	font-weight: bold;
+	font-size: 18px;
+	color: #404040;
+	padding-top: 50px;
+	margin-left: 20px;
+}
+
+@media screen and (max-width: 767px) {
+	.small-title-black-name {
+		padding-top: 10px;
+	}
+
+}
+
+.boton-azul-perfil {
+	background-color: #DCF2FF;
+	border-radius: 2px;
+	box-shadow: 0px 1px 2px rgba(158, 158, 158, 0.05);
+	border: none;
+	color: #40B8F2;
+	font-weight: 150px;
+	height: 35px;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+
+}
+
+.boton-azul-perfil:hover {
+	background-color: #E3F5FF;
+}
+
+@media screen and (max-width: 767px) {
+	.small-title-black-name {
+		padding-top: 10px;
+	}
+
+}
+
+/* chat cliente ------------------------------*/
+.boton-rojo-no-margen,
+.boton-rojo-perfil {
+	background-color: #FFDDDC;
+	border-radius: 2px;
+	box-shadow: 0px 1px 2px rgba(158, 158, 158, 0.05);
+	border: none;
+	color: #F25D40;
+	font-weight: 150px;
+	height: 35px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.boton-rojo-perfil:hover {
+	background-color: #FFE7E6;
+}
+
+.boton-rojo-no-margen,
+.boton-rojo-perfil {
+	background-color: #FFDDDC;
+	border-radius: 2px;
+	box-shadow: 0px 1px 2px rgba(158, 158, 158, 0.05);
+	border: none;
+	color: #F25D40;
+	font-weight: 150px;
+	height: 35px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.boton-rojo-perfil:hover {
+	background-color: #FFE7E6;
+}
+
+.padding-less {
+	padding-right: 0px;
+}
+
+.boton-rojo-no-margen:hover {
+	background-color: #FFE7E6;
+}
+
+.padding-less {
+	padding-right: 0px;
+}
+
+.boton-rojo-no-margen:hover {
+	background-color: #FFE7E6;
+}
+
+.float-boton-right {
+	float: right;
+}

@@ -1,0 +1,33 @@
+version: '3'
+services:
+  db:
+    image: mysql:5.7.11
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=main
+  app:
+    image: lamp
+    ports:
+      - 80:80
+    volumes:
+      - ./codeigniter:/var/www/html
+    depends_on:
+      - db
+    links:
+      - db
+    environment:
+      - MYSQL_SERVER=db
+      - MYSQL_PASSWORD=root
+      - MYSQL_USER=root
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    links:
+      - db
+    ports:
+      - 2222:80
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+  sass:
+    image: larryprice/sass
+    volumes:
+      - ./codeigniter/css:/src
