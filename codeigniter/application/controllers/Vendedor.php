@@ -55,7 +55,7 @@ class Vendedor extends CI_Controller {
 				'correo' => $_POST['correo'],
 			];
 			if($_POST['contrasena'] != '') {
-				$args_cliente['contrasena'] = md5($_POSt['contrasena']);
+				$args_cliente['contrasena'] = md5($_POST['contrasena']);
 			}
 			$this->Principal_model->update_usuario($id, $args_cliente);
 			$args_solicitud = [

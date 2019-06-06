@@ -113,6 +113,7 @@
         return false;
       }
       else {
+        $args['archivado'] = "false";
         $res = $this->db->insert('solicitud', $args);
         return $res;
       }
